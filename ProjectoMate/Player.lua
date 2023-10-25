@@ -11,7 +11,7 @@ PlayerParent = {
   Desmov = 15,
   hsp = 0,
   vsp = 0,
-  color = {255,0,0},
+  color = {255,0,0}, --color rgb
   state = 0 --Estados; 0- idle; 1- walk; 2- run;
 }
 
