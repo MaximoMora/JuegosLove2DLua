@@ -1,5 +1,7 @@
 --Main Love2d
+
 dofile("OtherMath.lua")
+dofile("physicalObj.lua")
 dofile("Collision.lua")
 dofile("Player.lua")
 
@@ -9,7 +11,7 @@ function love.load()
   --love.window.setMode(240,160)
   love.window.setFullscreen(false)
   timesa = 0
-  Jugador = PlayerParent:new({})
+  Jugador = PlayerObj:new()
   Solido = objSolid:new({x = 180, y = 180, x2 = 64, y2 = 64 })
 end
 
